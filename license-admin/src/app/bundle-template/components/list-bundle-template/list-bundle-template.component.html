@@ -1,0 +1,34 @@
+<mat-table [dataSource]="dataSource">
+  <ng-container matColumnDef="name">
+    <mat-header-cell *matHeaderCellDef i18n>Name</mat-header-cell>
+    <mat-cell *matCellDef="let bundleTemplate">{{bundleTemplate.name}}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="description">
+    <mat-header-cell *matHeaderCellDef i18n>Description</mat-header-cell>
+    <mat-cell *matCellDef="let bundleTemplate">{{bundleTemplate.description}}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="licenseModel">
+    <mat-header-cell *matHeaderCellDef i18n>License Model</mat-header-cell>
+    <mat-cell *matCellDef="let bundleTemplate">{{bundleTemplate.licenseModel}}</mat-cell>
+  </ng-container>
+  <!-- actions -->
+  <ng-container matColumnDef="actions">
+    <mat-header-cell *matHeaderCellDef>
+      <button (click)="addBundleTemplate()" color="primary" id="add-bundle-template" mat-icon-button>
+        <mat-icon aria-label="Add" i18n-aria-label>add</mat-icon>
+      </button>
+    </mat-header-cell>
+
+    <mat-cell *matCellDef="let bundleTemplate">
+      <button (click)="deleteBundleTemplate(bundleTemplate)" class="delete-button" color="accent" mat-icon-button>
+        <mat-icon aria-label="Delete" i18n-aria-label>delete</mat-icon>
+      </button>
+      <a [queryParams]="{id: bundleTemplate.id}" class="details-button" color="primary" mat-icon-button
+         routerLink="/bundles">
+        <mat-icon aria-label="Details" i18n-aria-label>info</mat-icon>
+      </a>
+    </mat-cell>
+  </ng-container>
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>

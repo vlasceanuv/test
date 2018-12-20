@@ -1,0 +1,13 @@
+<div class="container">
+  <h3 i18n mat-dialog-title>Cannot delete dynamic value</h3>
+  <div mat-dialog-content>
+    <p i18n mat-body-1>The selected dynamic value is currently in use in the following products:</p>
+    <mat-list>
+      <mat-list-item *ngFor="let product of data.data">{{product.name}} - {{product.code}}</mat-list-item>
+    </mat-list>
+  </div>
+
+  <div mat-dialog-actions>
+    <button [mat-dialog-close]="1" i18n mat-button>OK</button>
+  </div>
+</div>

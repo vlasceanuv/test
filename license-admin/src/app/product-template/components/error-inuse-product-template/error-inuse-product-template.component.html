@@ -1,0 +1,13 @@
+<div class="container">
+  <h3 i18n mat-dialog-title>Cannot delete product</h3>
+  <div mat-dialog-content>
+    <p i18n mat-body-1>The selected product is currently in use in the following bundles:</p>
+    <mat-list>
+      <mat-list-item *ngFor="let bundle of data.data">{{bundle.name}}</mat-list-item>
+    </mat-list>
+  </div>
+
+  <div mat-dialog-actions>
+    <button [mat-dialog-close]="1" i18n mat-button>OK</button>
+  </div>
+</div>

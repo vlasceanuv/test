@@ -1,0 +1,8 @@
+<mat-toolbar i18n>Dynamic Value Templates</mat-toolbar>
+<app-list-dynamic-value-template
+  [dataSource]="dataSource"
+  [displayedColumns]="['code', 'name', 'description', 'actions']"
+  (add)="addNewDynamicValueTemplate()"
+  (delete)="deleteDynamicValueTemplate($event)">
+</app-list-dynamic-value-template>
+

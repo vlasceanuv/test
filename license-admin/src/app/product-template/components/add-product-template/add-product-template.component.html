@@ -1,0 +1,93 @@
+<div class="container">
+  <h3 i18n mat-dialog-title>Add new ProductTemplate</h3>
+  <mat-horizontal-stepper #stepper linear="true">
+    <mat-step [stepControl]="productInfoGroup">
+      <form [formGroup]="productInfoGroup">
+        <ng-template matStepLabel>Product details</ng-template>
+        <div class="form">
+          <mat-form-field color="accent">
+            <input class="form-control"
+                   formControlName="code"
+                   i18n-placeholder
+                   id="add-product-code"
+                   matInput
+                   name="code"
+                   placeholder="Code"
+                   required/>
+            <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="form">
+          <mat-form-field color="accent">
+            <input class="form-control"
+                   formControlName="name"
+                   i18n-placeholder
+                   id="add-product-name"
+                   matInput
+                   name="name"
+                   placeholder="Name"
+                   required/>
+            <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="form">
+          <mat-form-field color="accent">
+            <textarea class="form-control"
+                      formControlName="description"
+                      i18n-placeholder
+                      id="add-product-description"
+                      matInput
+                      name="description"
+                      placeholder="Description"></textarea>
+            <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+
+        <mat-divider></mat-divider>
+        <div class="buttons-row">
+          <button color="primary" id="add-product-to-feature-selection" mat-flat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="featuresGroup">
+      <form [formGroup]="featuresGroup">
+        <ng-template matStepLabel>Select Features</ng-template>
+        <app-list-feature-template
+          [dataSource]="data.featuresDataSource"
+          [displayedColumns]="['select', 'code', 'name', 'description']"
+        >
+        </app-list-feature-template>
+        <mat-divider></mat-divider>
+        <div class="buttons-row">
+          <button mat-flat-button matStepperPrevious>Back</button>
+          <button color="primary" id="add-product-to-dynamic-values-selection" mat-flat-button matStepperNext>Next
+          </button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="dynamicValuesGroup">
+      <form [formGroup]="dynamicValuesGroup">
+        <ng-template matStepLabel>Select Dynamic Values</ng-template>
+        <app-list-dynamic-value-template
+          [dataSource]="data.dynamicValuesDataSource"
+          [displayedColumns]="['select', 'code', 'name', 'description']"
+        >
+        </app-list-dynamic-value-template>
+        <mat-divider></mat-divider>
+        <div class="buttons-row">
+          <button mat-flat-button matStepperPrevious>Back</button>
+          <button color="primary" id="add-product-to-summary" mat-flat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="reviewGroup">
+      <ng-template matStepLabel>Product Configured</ng-template>
+      The new product is configured. Click "CREATE" to build it or back to review changes.
+      <mat-divider></mat-divider>
+      <div class="buttons-row">
+        <button mat-flat-button matStepperPrevious>Back</button>
+        <button (click)="addProduct()" color="primary" id="add-product-create" mat-flat-button>Create</button>
+      </div>
+    </mat-step>
+  </mat-horizontal-stepper>
+</div>

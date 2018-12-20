@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="cb83ef940034c4b46e5fec19f4e2965f9c9b2aef" datatype="html">
+        <source>Can not complete operation</source>
+        <target>Can not complete operation_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/generic-error/generic-error.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="39f24b4ba26a80335e5fb01bb6692e5173601b01" datatype="html">
+        <source>The following error happend:</source>
+        <target>The following error happend:_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/generic-error/generic-error.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d7f143bdf134cf8a34c7ca43ea3b6afc64644c7" datatype="html">
+        <source>Status:</source>
+        <target>Status:_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/generic-error/generic-error.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/generic-error/generic-error.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b70e86801585d4edc8b7cec76c76fd0eb4f59a2" datatype="html">
+        <source>Details:</source>
+        <target>Details:_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/generic-error/generic-error.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bd630d8669b16e5f264ec4649d9b469fe03e5ff4" datatype="html">
+        <source>Path:</source>
+        <target>Path:_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/generic-error/generic-error.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e6c975ebea8b5f8b120905ca7acf9f8edf59d8e" datatype="html">
+        <source>OK</source>
+        <target>OK_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/generic-error/generic-error.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/error-inuse-product-template/error-inuse-product-template.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/error-inuse-dynamic-value-template/error-inuse-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/error-inuse-feature-template/error-inuse-feature-template.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c8bba7ecd8bb383b137df38af16c03fb30fc0909" datatype="html">
+        <source>License Admin</source>
+        <target>License Admin_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6cdb1fea93d77c07950c0c76c6e0ad79ebbef084" datatype="html">
+        <source>Features</source>
+        <target>Features_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7f7a97dac318014d548402d5ccdfa7955296db4" datatype="html">
+        <source>Dynamic Values</source>
+        <target>Dynamic Values_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48dfb134cb8d324bb45f2f9f3bd7d7afc49bc3f8" datatype="html">
+        <source>Products</source>
+        <target>Products_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c29e23e154cfff6f06457758728e2a058cd2f6f9" datatype="html">
+        <source>Bundles</source>
+        <target>Bundles_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68572de01b84c678be4bf8a27b990ecac2f41ce9" datatype="html">
+        <source>Code</source>
+        <target>Code_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/list-product-template/list-product-template.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/add-product-template/add-product-template.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/delete-product-template/delete-product-template.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/add-dynamic-value-template/add-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/add-feature-template/add-feature-template.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/delete-feature-template/delete-feature-template.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+        <target>Name_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/list-product-template/list-product-template.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/add-bundle-template/add-bundle-template.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/delete-bundle-template/delete-bundle-template.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/list-bundle-template/list-bundle-template.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/add-product-template/add-product-template.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/delete-product-template/delete-product-template.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/add-dynamic-value-template/add-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/delete-dynamic-value-template/delete-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/add-feature-template/add-feature-template.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/delete-feature-template/delete-feature-template.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
+        <source>Description</source>
+        <target>Description_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/list-product-template/list-product-template.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/add-bundle-template/add-bundle-template.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/delete-bundle-template/delete-bundle-template.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/list-bundle-template/list-bundle-template.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/add-product-template/add-product-template.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/delete-product-template/delete-product-template.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/add-dynamic-value-template/add-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/delete-dynamic-value-template/delete-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/add-feature-template/add-feature-template.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/delete-feature-template/delete-feature-template.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f6755cff4957d5c3c89bafce5651f1b6fa2b1fd9" datatype="html">
+        <source>Add</source>
+        <target>Add_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/list-product-template/list-product-template.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/list-bundle-template/list-bundle-template.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/list-dynamic-value-template/list-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/list-feature-template/list-feature-template.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
+        <source>Delete</source>
+        <target>Delete_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/list-product-template/list-product-template.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/delete-bundle-template/delete-bundle-template.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/list-bundle-template/list-bundle-template.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/list-dynamic-value-template/list-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/list-feature-template/list-feature-template.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/delete-product-template/delete-product-template.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/delete-dynamic-value-template/delete-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/delete-feature-template/delete-feature-template.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
+        <source>Details</source>
+        <target>Details_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/list-product-template/list-product-template.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/list-bundle-template/list-bundle-template.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="29f477dd8976c9a4293c743770adba3faac7efd2" datatype="html">
+        <source>Add new BundleTemplate</source>
+        <target>Add new BundleTemplate_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/add-bundle-template/add-bundle-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="212bca198120c06aa74ccb5458afba0ec84b1c9d" datatype="html">
+        <source>License Model</source>
+        <target>License Model_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/add-bundle-template/add-bundle-template.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/delete-bundle-template/delete-bundle-template.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/list-bundle-template/list-bundle-template.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="69e9c615849b4a73db4b15885952f4333b741c62" datatype="html">
+        <source>Are you sure?</source>
+        <target>Are you sure?_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/delete-bundle-template/delete-bundle-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/delete-product-template/delete-product-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/delete-dynamic-value-template/delete-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/delete-feature-template/delete-feature-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
+        <source>Cancel</source>
+        <target>Cancel_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/delete-bundle-template/delete-bundle-template.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/delete-product-template/delete-product-template.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/add-dynamic-value-template/add-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/delete-dynamic-value-template/delete-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/add-feature-template/add-feature-template.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/delete-feature-template/delete-feature-template.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dad46861274f1f1ad4da6ba2b98ea7a02562bca1" datatype="html">
+        <source>Bundle Templates</source>
+        <target>Bundle Templates_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bundle-template/components/bundle-template/bundle-template.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2798cc1e152b1ec07fd8daf94a2a073d1ba1ebcc" datatype="html">
+        <source>Id</source>
+        <target>Id_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/list-dynamic-value-template/list-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/list-feature-template/list-feature-template.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7dc4e01b93e9d0bbdd6806accf62f137983bf44" datatype="html">
+        <source> Code</source>
+        <target> Code_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/list-dynamic-value-template/list-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/list-feature-template/list-feature-template.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b07cc6126aa22c8a3041963963e85a0791a7e40" datatype="html">
+        <source> Name</source>
+        <target> Name_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/list-dynamic-value-template/list-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/list-feature-template/list-feature-template.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1966b0173d4a08be5ddb5cda1246d604fcd242c7" datatype="html">
+        <source> Description</source>
+        <target> Description_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/list-dynamic-value-template/list-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/list-feature-template/list-feature-template.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6b820266a50e0e3c2ea3cc87b64fa2beb3229915" datatype="html">
+        <source>Add new ProductTemplate</source>
+        <target>Add new ProductTemplate_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/add-product-template/add-product-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3294bb3af6793a5cc357ff98df9fc3bfd53603a" datatype="html">
+        <source>Cannot delete product</source>
+        <target>Cannot delete product_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/error-inuse-product-template/error-inuse-product-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97b5406d4bdf1de3ea104ec8905540caf78ca47c" datatype="html">
+        <source>The selected product is currently in use in the following bundles:</source>
+        <target>The selected product is currently in use in the following bundles:_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/error-inuse-product-template/error-inuse-product-template.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b37f2ad1c43e93fc72217e8f32533a60d4df83b6" datatype="html">
+        <source>Product Templates</source>
+        <target>Product Templates_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/product-template/components/product-template/product-template.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b86354a4cb8061a701ecfa5a5764ea8a33016f1b" datatype="html">
+        <source>Add new DynamicValueTemplate</source>
+        <target>Add new DynamicValueTemplate_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/add-dynamic-value-template/add-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52c9a103b812f258bcddc3d90a6e3f46871d25fe" datatype="html">
+        <source>Save</source>
+        <target>Save_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/add-dynamic-value-template/add-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/add-feature-template/add-feature-template.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ac425356e2232cf4c597409ca375b8b1b8a49b2" datatype="html">
+        <source>Cannot delete dynamic value</source>
+        <target>Cannot delete dynamic value_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/error-inuse-dynamic-value-template/error-inuse-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5536e19c223c22ea56c2330969ec8289c88d080c" datatype="html">
+        <source>The selected dynamic value is currently in use in the following products:</source>
+        <target>The selected dynamic value is currently in use in the following products:_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/error-inuse-dynamic-value-template/error-inuse-dynamic-value-template.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5b00c1c0668e4a04884f754e137ed79d87ad595e" datatype="html">
+        <source>Dynamic Value Templates</source>
+        <target>Dynamic Value Templates_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dynamic-value-template/components/dynamic-value-templates/dynamic-value-templates.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6d9184441ef6979c343a98042773713adcced410" datatype="html">
+        <source>Add new FeatureTemplate</source>
+        <target>Add new FeatureTemplate_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/add-feature-template/add-feature-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c75340dcfa2c64907b0c52ece11529ae6eaf0fc7" datatype="html">
+        <source>Can not delete feature</source>
+        <target>Can not delete feature_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/error-inuse-feature-template/error-inuse-feature-template.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c576111bac93abd78a367c85c11e56897017ad9c" datatype="html">
+        <source>The selected feature is currently in use in the following products:</source>
+        <target>The selected feature is currently in use in the following products:_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/error-inuse-feature-template/error-inuse-feature-template.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4bf6be040d55a922b0db67f6239af8df82369b64" datatype="html">
+        <source>Feature Templates</source>
+        <target>Feature Templates_ro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feature-template/components/features-template/features-template.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

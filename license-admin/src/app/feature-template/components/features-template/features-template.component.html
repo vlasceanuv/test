@@ -1,0 +1,7 @@
+<mat-toolbar i18n>Feature Templates</mat-toolbar>
+<app-list-feature-template
+  [dataSource]="dataSource"
+  [displayedColumns]="['code', 'name', 'description', 'actions']"
+  (add)="addNewFeatureTemplate()"
+  (delete)="deleteFeatureTemplate($event)">
+</app-list-feature-template>

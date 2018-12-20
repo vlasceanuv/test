@@ -1,0 +1,33 @@
+<mat-card>
+  <mat-card-title>{{productTemplate.name}}</mat-card-title>
+  <mat-card-subtitle>{{productTemplate.code}}</mat-card-subtitle>
+  <mat-card-content>
+    <p class="mat-body-1">{{productTemplate.description}}</p>
+  </mat-card-content>
+</mat-card>
+
+<p></p>
+
+<mat-card>
+  <mat-card-subtitle>Features</mat-card-subtitle>
+  <mat-card-content>
+    <app-list-feature-template
+      [dataSource]="productTemplate.featureTemplateDtos"
+      [displayedColumns]="['code', 'name', 'description']"
+    >
+    </app-list-feature-template>
+  </mat-card-content>
+</mat-card>
+
+<p></p>
+
+<mat-card>
+  <mat-card-subtitle>Dynamic Values</mat-card-subtitle>
+  <mat-card-content>
+    <app-list-dynamic-value-template
+      [dataSource]="productTemplate.dynamicValueTemplateDtos"
+      [displayedColumns]="['code', 'name', 'description']"
+    >
+    </app-list-dynamic-value-template>
+  </mat-card-content>
+</mat-card>

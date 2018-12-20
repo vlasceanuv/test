@@ -1,0 +1,15 @@
+<mat-toolbar i18n>Product Templates</mat-toolbar>
+
+<span [ngSwitch]="shouldDisplayDetailsPage">
+  <app-list-product-template *ngSwitchCase="false"
+                             [dataSource]="dataSource"
+                             [displayedColumns]="['code', 'name', 'description', 'actions']"
+                             (add)="addNewProductTemplate()"
+                             (delete)="deleteProductTemplate($event)"
+  >
+  </app-list-product-template>
+  <app-details-product-template *ngSwitchDefault
+                                [dataSource]="productTemplateService.productByIdChange"
+  >
+  </app-details-product-template>
+</span>

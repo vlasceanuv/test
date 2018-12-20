@@ -1,0 +1,76 @@
+<div class="container">
+  <h3 i18n mat-dialog-title>Add new BundleTemplate</h3>
+  <mat-horizontal-stepper #stepper linear="true">
+    <mat-step [stepControl]="bundleInfoGroup">
+      <form [formGroup]="bundleInfoGroup">
+        <ng-template matStepLabel>Bundle details</ng-template>
+        <div class="form">
+          <mat-form-field color="accent">
+            <input class="form-control"
+                   formControlName="name"
+                   i18n-placeholder
+                   id="add-bundle-name"
+                   matInput
+                   name="name"
+                   placeholder="Name"
+                   required/>
+            <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="form">
+          <mat-form-field color="accent">
+            <textarea class="form-control"
+                      formControlName="description"
+                      i18n-placeholder
+                      id="add-bundle-description"
+                      matInput
+                      name="description"
+                      placeholder="Description"></textarea>
+            <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="form">
+          <mat-form-field>
+            <mat-select
+              [(value)]="selectedLicenseModel"
+              i18n-placeholder
+              id="add-bundle-license-model"
+              placeholder="License Model"
+              required>
+              <mat-option *ngFor="let licenseModelOption of data.licenseModelOptions"
+                          [value]="licenseModelOption">{{licenseModelOption}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <mat-divider></mat-divider>
+        <div class="buttons-row">
+          <button color="primary" id="add-bundle-to-product-selection" mat-flat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="productsGroup">
+      <form [formGroup]="productsGroup">
+        <ng-template matStepLabel>Select Products</ng-template>
+        <app-list-product-template
+          [dataSource]="data.productsDataSource"
+          [displayedColumns]="['select', 'code', 'name', 'description']"
+        >
+        </app-list-product-template>
+        <mat-divider></mat-divider>
+        <div class="buttons-row">
+          <button mat-flat-button matStepperPrevious>Back</button>
+          <button color="primary" id="add-bundle-to-summary" mat-flat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="reviewGroup">
+      <ng-template matStepLabel>Bundle Configured</ng-template>
+      The new bundle is configured. Click "CREATE" to build it or back to review changes.
+      <mat-divider></mat-divider>
+      <div class="buttons-row">
+        <button mat-flat-button matStepperPrevious>Back</button>
+        <button (click)="addBundle()" color="primary" id="add-bundle-create" mat-flat-button>Create</button>
+      </div>
+    </mat-step>
+  </mat-horizontal-stepper>
+</div>

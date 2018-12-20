@@ -1,0 +1,48 @@
+<mat-table [dataSource]="dataSource">
+  <ng-container matColumnDef="select">
+    <mat-header-cell *matHeaderCellDef>
+      <mat-checkbox (change)="$event ? masterToggle() : null"
+                    [checked]="selection.hasValue() && isAllSelected()"
+                    [indeterminate]="selection.hasValue() && !isAllSelected()">
+      </mat-checkbox>
+    </mat-header-cell>
+    <mat-cell *matCellDef="let featureTemplate">
+      <mat-checkbox (change)="$event ? selection.toggle(featureTemplate) : null"
+                    (click)="$event.stopPropagation()"
+                    [checked]="selection.isSelected(featureTemplate)">
+      </mat-checkbox>
+    </mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="code">
+    <mat-header-cell *matHeaderCellDef i18n>Code</mat-header-cell>
+    <mat-cell *matCellDef="let productTemplate">{{productTemplate.code}}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="name">
+    <mat-header-cell *matHeaderCellDef i18n>Name</mat-header-cell>
+    <mat-cell *matCellDef="let productTemplate">{{productTemplate.name}}</mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="description">
+    <mat-header-cell *matHeaderCellDef i18n>Description</mat-header-cell>
+    <mat-cell *matCellDef="let productTemplate">{{productTemplate.description}}</mat-cell>
+  </ng-container>
+  <!-- actions -->
+  <ng-container matColumnDef="actions">
+    <mat-header-cell *matHeaderCellDef>
+      <button (click)="addProductTemplate()" color="primary" id="add-product-template" mat-icon-button>
+        <mat-icon aria-label="Add" i18n-aria-label>add</mat-icon>
+      </button>
+    </mat-header-cell>
+
+    <mat-cell *matCellDef="let productTemplate">
+      <button (click)="deleteProductTemplate(productTemplate)" class="delete-button" color="accent" mat-icon-button>
+        <mat-icon aria-label="Delete" i18n-aria-label>delete</mat-icon>
+      </button>
+      <a [queryParams]="{id: productTemplate.id}" class="details-button" color="primary" mat-icon-button
+         routerLink="/products">
+        <mat-icon aria-label="Details" i18n-aria-label>info</mat-icon>
+      </a>
+    </mat-cell>
+  </ng-container>
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>

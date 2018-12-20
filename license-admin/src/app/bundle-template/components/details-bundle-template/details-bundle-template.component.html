@@ -1,0 +1,20 @@
+<mat-card>
+  <mat-card-title>{{bundleTemplate.name}}</mat-card-title>
+  <mat-card-subtitle>{{bundleTemplate.licenseModel}}</mat-card-subtitle>
+  <mat-card-content>
+    <p class="mat-body-1">{{bundleTemplate.description}}</p>
+  </mat-card-content>
+</mat-card>
+
+<p></p>
+
+<mat-card>
+  <mat-card-subtitle>Products</mat-card-subtitle>
+  <mat-card-content>
+    <app-list-product-template
+      [dataSource]="bundleTemplate.productTemplateDtos"
+      [displayedColumns]="['code', 'name', 'description']"
+    >
+    </app-list-product-template>
+  </mat-card-content>
+</mat-card>

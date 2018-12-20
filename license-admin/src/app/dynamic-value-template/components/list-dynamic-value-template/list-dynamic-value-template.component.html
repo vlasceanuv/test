@@ -1,0 +1,49 @@
+<mat-table [dataSource]="dataSource">
+  <ng-container matColumnDef="select">
+    <mat-header-cell *matHeaderCellDef>
+      <mat-checkbox (change)="$event ? masterToggle() : null"
+                    [checked]="selection.hasValue() && isAllSelected()"
+                    [indeterminate]="selection.hasValue() && !isAllSelected()">
+      </mat-checkbox>
+    </mat-header-cell>
+    <mat-cell *matCellDef="let dynamicValueTemplate">
+      <mat-checkbox (change)="$event ? selection.toggle(dynamicValueTemplate) : null"
+                    (click)="$event.stopPropagation()"
+                    [checked]="selection.isSelected(dynamicValueTemplate)">
+      </mat-checkbox>
+    </mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="id">
+    <mat-header-cell *matHeaderCellDef i18n>Id</mat-header-cell>
+    <mat-cell *matCellDef="let dynamicValueTemplate"> {{dynamicValueTemplate.id}} </mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="code">
+    <mat-header-cell *matHeaderCellDef i18n> Code</mat-header-cell>
+    <mat-cell *matCellDef="let dynamicValueTemplate"> {{dynamicValueTemplate.code}} </mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="name">
+    <mat-header-cell *matHeaderCellDef i18n> Name</mat-header-cell>
+    <mat-cell *matCellDef="let dynamicValueTemplate"> {{dynamicValueTemplate.name}} </mat-cell>
+  </ng-container>
+  <ng-container matColumnDef="description">
+    <mat-header-cell *matHeaderCellDef i18n> Description</mat-header-cell>
+    <mat-cell *matCellDef="let dynamicValueTemplate"> {{dynamicValueTemplate.description}} </mat-cell>
+  </ng-container>
+  <!-- actions -->
+  <ng-container matColumnDef="actions">
+    <mat-header-cell *matHeaderCellDef>
+      <button (click)="addNewDynamicValueTemplate()" color="primary" id="add-dynamic-value-template" mat-icon-button>
+        <mat-icon aria-label="Add" i18n-aria-label>add</mat-icon>
+      </button>
+    </mat-header-cell>
+
+    <mat-cell *matCellDef="let dynamicValueTemplate">
+
+      <button (click)="deleteDynamicValueTemplate(dynamicValueTemplate)" color="accent" mat-icon-button>
+        <mat-icon aria-label="Delete" i18n-aria-label>delete</mat-icon>
+      </button>
+    </mat-cell>
+  </ng-container>
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>

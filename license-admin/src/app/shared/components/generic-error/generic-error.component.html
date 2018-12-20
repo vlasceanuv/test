@@ -1,0 +1,27 @@
+<div class="container">
+  <h3 i18n mat-dialog-title>Can not complete operation</h3>
+  <div mat-dialog-content>
+    <mat-list>
+      <h3 i18n mat-subheader>The following error happend:</h3>
+      <mat-list-item>
+        <mat-icon mat-list-icon>warning</mat-icon>
+        <h4 mat-line>{{error.message}}</h4>
+        <p mat-line><span i18n>Status:</span> {{error.status}} - {{error.statusText}} </p>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <h3 i18n mat-subheader>Details:</h3>
+      <mat-list-item>
+        <mat-icon mat-list-icon>info</mat-icon>
+        <h4 mat-line>{{error.error.message}}</h4>
+        <p mat-line><span i18n>Status:</span> {{error.error.status}} - {{error.error.error}} </p>
+        <p mat-line><span i18n>Path:</span> {{error.error.path}}</p>
+      </mat-list-item>
+    </mat-list>
+  </div>
+
+  <div mat-dialog-actions>
+    <button [mat-dialog-close]="1"
+            i18n
+            mat-button>OK</button>
+  </div>
+</div>

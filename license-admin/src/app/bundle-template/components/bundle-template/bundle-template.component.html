@@ -1,0 +1,13 @@
+<mat-toolbar i18n>Bundle Templates</mat-toolbar>
+<span [ngSwitch]="shouldDisplayDetailsPage">
+  <app-list-bundle-template *ngSwitchCase="false"
+                            [dataSource]="dataSource"
+                            (add)="addNewBundleTemplate()"
+                            (delete)="deleteBundleTemplate($event)"
+  >
+  </app-list-bundle-template>
+  <app-details-bundle-template *ngSwitchDefault
+                               [dataSource]="bundleTemplateService.bundleByIdChange"
+  >
+  </app-details-bundle-template>
+</span>
